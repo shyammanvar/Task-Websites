@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body style="background-color:rgb(103, 191, 187);"></body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Register Form </h2>
+    <form action="/action_page.php" target="_blank">
+        <lable form="fname"> First Name : </lable><br>
+        <input type="text" id="fname" name="fname" value="Enter First Name"><br><br>
+
+        <label form="lname"> Last Name : </label><br>
+        <input type="text" id="lname" name="lname" value="Enter Last Name"><br><br>
+
+
+        <label form="lname"> Phone Number : </label><br>
+        <input type="text" id="lname" name="lname" value="Enter Phone Number"><br><br>
+
+        <label form="lname"> Gender : </label><br>
+
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Male</label> <input type="radio" id="css" name="fav_language" value="CSS"><label for="css">Female</label>
+            <br><br>
+
+            <form action="/action_page.php">
+                <label for="State">Select Your State:</label>
+                <select id="State" name="State">
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Mp">Mp</option>
+                  <option value="Up">Up</option>
+                </select>
+                <br><br>
+            </form>
+
+            <input type="submit" value="Submit">
+            <input type="submit" value="Cancle">
+
+            <h2>Table Details</h2>
+
+            <table style="width:100%">
+                <tr>
+                    <th>SR.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Traning</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Chhailin</td>
+                    <td>chhailinXYZ01gmail.com</td>
+                    <td>Web Design</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shiva</td>
+                    <td>ShivaXYZ02@gmail.com</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jay</td>
+                    <td>JayXYZ03@gmail.com</td>
+                    <td>React</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tanish</td>
+                    <td>TanishXYZ04@gmail.com</td>
+                    <td>UI/Ux</td>
+                </tr>
+            </table>
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+</body>
+
+</html>
