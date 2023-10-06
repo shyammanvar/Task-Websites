@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // block scope
+
+        
+        // var is not a block scope.
+      /*  var a = 10
+        {
+            var a = 100
+        }
+        console.log(a)   */
+
+
+
+        // Let and const are block scope
+
+        const b = "Hello JS"
+
+        {
+            const b = "Hello block"
+            console.log(b)
+           
+        }
+
+        {
+            const b = "Hello new block"
+            console.log(b)
+        }
+
+        console.log(b)
+    </script>
+</body>
+</html>

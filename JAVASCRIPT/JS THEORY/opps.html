@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // procedural oriented programming, functional programming, pop
+        // object oriented programming, OOPs
+
+        // inheritance, incapsulation, abstraction, polymorphisam
+
+
+
+        class player{
+            to_fire(){
+                console.log('Player is firing!')
+            }
+
+            to_run(){
+                console.log('Player is running!')
+            }
+            to_swim(){
+                console.log('Player is swimming!')
+            }
+        }
+
+        // Inheritance
+
+        class MalePlayer extends player{
+            height(){
+                console.log('Height is increased!')
+            }
+        }
+
+        class FemalePlayer extends MalePlayer{
+            rig_out(){
+                console.log('I have different clothing sense.')
+            }
+        }
+
+
+        // static method
+
+        class specialChar{
+            static double_damage(){
+                console.log('Double fire scheme!')
+            }
+        }
+
+        // creating an instance / object of a class.
+
+        let Adam = new player()
+        let kla = new player()
+        let john = new MalePlayer()
+        let annie = new FemalePlayer()
+        let joy = new specialChar()
+        Adam.to_fire()
+        Adam.to_swim()
+        kla.to_fire()
+        john.height()
+        john.to_run()
+        annie.rig_out()
+        annie.to_fire()
+        annie.height()
+        specialChar.double_damage()
+
+
+
+    </script>
+</body>
+</html>

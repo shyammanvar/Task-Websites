@@ -1,0 +1,34 @@
+js hero
+Edabit
+W3Resourses
+Dremincode
+Asmarterwaytolearn
+Exercism
+Maxpou
+Teaching Materials
+site point
+js challenger
+
+
+html , css - website create
+js
+
+interview questions
+
+html/css
+html fount image css js ...  load this first which will come first ....conncted first line...
+http htps diffrents - primary diffrecnce seucrity
+css inline ?
+external css ?
+property inline & externalline css which one are pic.(brouse are pic)
+same pro. same element which are proprty run and result 
+inline first ave to e na lavu hoi n external n lavau hoi to ?
+js
+can you tell me what 3 diffrent variblae in type in js -let var const 
+diifrnce let var const ?
+hoisting ? - undifind / difind
+
+4 square white colour beg every time cilk to touch green colour change 
+white to green privasuce colour 
+4 box che white and cilk greenn tai jai che and lai lyo etly white 
+

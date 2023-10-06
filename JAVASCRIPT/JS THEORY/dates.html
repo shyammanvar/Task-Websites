@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="time"></p>
+    <p id="demo"></p>
+    <script>
+        let text;
+        console.log(typeof text)
+
+        // 0-12 => good morning sir
+        // 12-5 => good afternoon sir
+        // 5-12 => good evening sir
+        const d=new Date();
+        document.getElementById("time").innerHTML=d;
+    if(){
+        text="good morning"
+    }
+    else{
+        text="good afternoon"
+    }
+
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>
