@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: dodgerblue;
+}
+.a {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 5px 5px blueviolet;
+}
+.b {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  height: 500px;
+  width: 1000px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.d {
+  text-align: center;
+  font-size: 50px;
+  font-family: "roboto", sans-serif;
+  padding: 30px;
+  margin: 15px 0;
+}
+.c {
+  display: flex;
+  margin: 25px 50px;
+}
+img {
+  height: 280px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+.e {
+  font-size: 25px;
+  font-family: "roboto light", sans-serif;
+  line-height: 40px;
+}
+.f {
+  background-color: white;
+  height: 100px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: dodgerblue;
+  padding: 20px 0;
+}
+a {
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+a:hover {
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .a,
+  .b,
+  .c,
+  .d,
+  .f {
+    display: flex;
+    flex-direction: column;
+  }
+}
