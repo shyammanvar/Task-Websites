@@ -1,0 +1,226 @@
+*{
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+section{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* start */
+
+.main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(233, 9, 9);
+}
+.first{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(1, 192, 68);
+}
+.topleft{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(157, 23, 23);
+}
+.topone{
+    width: 50%;
+    height: 75px;
+    float: left;
+    background-color: brown;
+}
+.toptwo{
+    width: 50%;
+    height: 75px;
+    float: right;
+    background-color: rgb(12, 201, 230);
+}
+
+.secound{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(199, 75, 3);
+}
+.third{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(8, 105, 16);
+}
+.topright{
+    width: 100%;
+    height: 75px;
+    background-color: indianred;
+}
+.topsecound{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: rgb(43, 225, 188);
+}
+.ones{
+    width: 50%;
+    height: 75px;
+    background-color: rgb(201, 4, 8);
+}
+
+.four{
+    width: 25%;
+    height: 150px;
+    background-color: crimson;
+}
+/* section */
+
+.mains{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.tops{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(251, 251, 251);
+}
+.firsts{
+    width: 33.33%;
+    height: 225px;
+    background-color: blueviolet;
+}
+.topss{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(70, 3, 3);
+}
+.secoundss{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(1, 1, 112);
+}
+.thirds{
+    width: 33.33%;
+    height: 225px;
+    position: relative;
+    background-color: rgb(79, 2, 106);
+}
+.downs{
+    width: 100%;
+    height: 50px;
+    float: left;
+    position:absolute;
+    top: 175px;
+    background-color: chartreuse;
+}
+/* section 2 */
+
+.mains{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+.topsh{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.firstsd{
+    width: 50%;
+    height: 225px;
+    background-color: darkolivegreen;
+}
+.topleftsd{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+}
+.rightsd{
+    width: 50%;
+    height: 75px;
+    float: left;
+    background-color: rgb(1, 150, 66);
+}
+
+.secoundsd{
+    width: 50%;
+    height: 255px;
+    display: flex;
+    background-color: rgb(209, 196, 196);
+}
+.onesd{
+    width: 50%;
+    height: 255px;
+    background-color: rgb(66, 66, 214);
+}
+.twosd{
+    width: 50%;
+    height: 225px;
+    background-color: darkgreen;
+}
+.letsdd{
+    width: 100%;
+    height: 112.5px;
+    background-color: black;
+}
+.rightsdd{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(0, 87, 10);
+}
+
+/* end footer */
+
+.mainf{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.onef{
+    width: 25%;
+    height: 150px;
+    background-color: darkred;
+}
+.secoundf{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(219, 131, 131);
+}
+.thirdf{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(230, 80, 0);
+}
+
+.fourf{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(5, 1, 58);
+}
