@@ -1,0 +1,279 @@
+*{
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+section{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* start */
+
+.main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.first{
+    width: 33.33%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+}
+.topleft{
+    width: 100%;
+    background-color: rgb(246, 239, 239);
+}
+.topone{
+    width: 50%;
+    height: 40px;
+    float: left;
+    background-color: rgb(112, 88, 243);
+}
+.toptwo{
+    width: 50%;
+    height: 40px;
+    float: right;
+    background-color: hotpink;
+}
+
+.secound{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(231, 220, 100);
+}
+.third{
+    width: 33.33%;
+    height: 40px;
+    background-color: rgb(8, 105, 16);
+}
+.topright{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(134, 90, 177);
+}
+.topsecound{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: rgb(228, 58, 202);
+}
+.ones{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(0, 190, 204);
+}
+
+/* section */
+.mainsd{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+.topshd{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(238, 233, 233);
+}
+.firstsdd{
+    width: 50%;
+    height: 225px;
+    background-color: rgb(11, 0, 211);
+}
+.toprightst{
+    width: 100%;
+    height: 112.5px;
+    background-color: darkgreen;
+}
+.topsecoundst{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(224, 30, 30);
+}
+.onesst{
+    width: 50%;
+    height: 112.5px;
+    background-color: rgb(30, 26, 88);
+}
+.secoundsd{
+    width: 50%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(209, 196, 196);
+}
+.onesd{
+    width: 50%;
+    height: 225px;
+    background-color: rgb(217, 83, 0);
+}
+.twosd{
+    width: 50%;
+    height: 225px;
+    background-color: rgb(0, 5, 100);
+}
+.letsdd{
+    width: 100%;
+    height: 112.5px;
+    background-color: saddlebrown;
+}
+.rightsdd{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(50, 41, 83);
+}
+
+/* section 2 */
+
+.maintt{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.firsttt{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(64, 52, 42);
+}
+.toplefttt{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(157, 23, 23);
+}
+.toponett{
+    width: 50%;
+    height: 112.5px;
+    float: left;
+    background-color: rgb(255, 126, 56);
+}
+.toptwott{
+    width: 50%;
+    height: 112.5px;
+    float: right;
+    background-color: rgb(230, 99, 165);
+}
+
+.secoundtt{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(32, 31, 59);
+}
+.thirdtt{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(8, 105, 16);
+}
+.toprighttt{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(117, 28, 28);
+}
+.topsecoundtt{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(112, 188, 236);
+}
+.onestt{
+    width: 50%;
+    height: 112.5px;
+    background-color: rgb(226, 138, 86);
+}
+
+/* end footer */
+
+.mainsdt{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+.topshdt{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(238, 233, 233);
+}
+.firstsddt{
+    width: 25%;
+    height: 225px;
+    background-color: rgb(247, 26, 2);
+}
+.toprightstt{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(51, 86, 106);
+}
+.topsecoundstt{
+    width: 50%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(215, 87, 18);
+}
+.secoundsdt{
+    width: 25%;
+    height: 225px;
+    display: flex;
+    position: relative;
+    background-color: rgb(12, 2, 62);
+}
+.onesdt{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    background-color: lawngreen;
+}
+.firstttf{
+    width: 25%;
+    height: 225px;
+    background-color: rgb(157, 4, 174);
+}
+.topleftttf{
+    width: 100%;
+    height: 112.5px;
+    background-color: rgb(157, 23, 23);
+}
+.toponettf{
+    width: 50%;
+    height: 112.5px;
+    float: left;
+    background-color: rgb(200, 94, 36);
+}
+.toptwottf{
+    width: 50%;
+    height: 112.5px;
+    float: right;
+    background-color: rgb(201, 13, 4);
+}
+.forftd{
+    width: 25%;
+    height: 225px;
+    background-color: crimson;
+}
