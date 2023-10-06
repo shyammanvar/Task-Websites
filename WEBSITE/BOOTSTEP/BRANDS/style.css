@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    z-index: 100;
+}
+#navbarNav a{
+    position: relative;
+}
+#navbarNav a::after{
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orangered;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#navbarNav a:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+#navbarNav a:hover{
+    color: orangered;
+}
+.nav-item a{
+    position: relative;
+}
+.nav-item a::after{
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orangered;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-item a:hover{
+    color: orangered;
+}
+.nav-item a:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+    
+
+/* Section1 */
+
+.section1{
+    background-color: #324651;
+
+}
+.text_1{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* Section2 */
+
+
+/* Section3 */
+.section3{
+    background-image: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+}
+.text_3 h1{
+    color: yellow;
+}
+/* Section4 */
+
+
+/* Section5 */
+
+.Section5{
+    background-color: #ffe500;
+}
+/* Section6 */
+
+.Section6{
+    background-color: #324651;
+}
+/* Section7 */
+
+/* Section8 */
+
+.Section8{
+    background-color: #324651;
+}
+
+
+/* Section9 */
+
+/* Section10 */
+.Section10{
+    background-color: #ffe500;
+}
+
+/* Section11 */
+.Section11{
+    background-color: #324651;
+}
+.Section12{
+    background-color: #182227;
+}
