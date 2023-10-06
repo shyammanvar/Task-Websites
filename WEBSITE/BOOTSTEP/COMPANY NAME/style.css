@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #9b9a95;
+
+}
+/* Section1 */
+.section1 .box1{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+/* Section2 */
+
+.section2{
+    background-color: #e9ebea;
+    width: 100%;
+}
+
+/* Section3 */
+
+
+/* Section4 */
+
+.section4{
+    background-color: #353535;
+}
+
+/* Section5 */
+
+/* Section6 */
+
+.section6{
+    background-color:#36c36e;
+}
+
+/* Section7 */
+
+.section7{
+    background-color: black;
+}
