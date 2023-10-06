@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:url(../img/header.jpg) ;
+}
+.text_1 h3{
+    font-family: 'Kaushan Script', cursive;
+}
+.text_1 h1{
+ 
+}
+
+.text_2 h5{
+    font-family: 'Kaushan Script', cursive;
+}
+.section2{
+    background-color: #95e1d3;
+}
+.section4{
+    background-image: url(../img/background.jpg);
+    margin-bottom:100px ;
+}
+.image2{
+    position: absolute;
+    z-index: 1;
+    bottom: -114px;
+    right:180px;
+}
+.section6{
+    background-color: #f8f8f8;
+}
+.section8{
+    background-color: #f8f8f8;
+}
+.section11{
+    background-image: url(../img/testimonial.jpg);
+}
+.section13{
+    background-image: url(../img/Untitled-18.jpg);
+}
+.tet{
+font-size: 12px;
+}
+.det{
+    font-size: 15px;
+}
