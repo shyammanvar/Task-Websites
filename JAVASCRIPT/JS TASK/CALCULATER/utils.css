@@ -1,0 +1,26 @@
+.text{
+    text-align: center;
+}
+.bg{
+    background-color: black;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: ;
+}
+.mx-auto{
+    margin: auto;
+}
+.m-w-20{
+    max-width: 30vw;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
