@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text Color Every Second</title>
+</head>
+<body>
+    <body>
+        <div id="text">
+            <ol>
+              <li id="li1"><b>Shyam</b></li>
+              <li id="li2"><b>Hareshbhai</b></li>
+              <li id="li3"><b>Manvar</b></li>
+            </ol>
+        </div>
+      </body>
+
+    <script>
+
+        let colors = ["red", "green", "blue", "orange", "purple"];
+        let currentIndex = 0;
+
+
+        function changeTextColor() {
+            let textElement = document.getElementById("text");
+            textElement.style.color = colors[currentIndex];
+            currentIndex = (currentIndex + 1) % colors.length;
+        }
+
+        let intervalId = setInterval(changeTextColor, 1000);
+
+        
+
+
+    </script>
+</body>
+</html>
