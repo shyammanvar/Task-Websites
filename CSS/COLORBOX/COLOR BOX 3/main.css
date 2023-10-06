@@ -1,0 +1,578 @@
+*{
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(56, 33, 33);
+}
+
+section{
+    width: 100%;
+    height: 450px;
+    background-color: crimson;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(56, 33, 33);
+}
+
+/* start */
+
+.main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(233, 9, 9);
+}
+.first{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(1, 192, 68);
+}
+.oneline{
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+}
+.twoline{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.thirdline{
+    width: 100%;
+    height: 50px;
+    background-color: darkviolet;
+}
+
+.secound{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(199, 75, 3);
+}
+.blackh{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(18, 17, 17);
+}
+.greenh{
+    width: 33.33%;
+    height: 150px;
+    background-color: lightgreen;
+}
+.pinkh{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(238, 66, 215);
+}
+
+.third{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(8, 105, 16);
+}
+.four{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(238, 66, 215);
+}
+
+/* section */
+
+.mains{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: crimson;
+}
+.tops{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.firsts{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(251, 251, 251);
+}
+.onep{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(21, 248, 32);
+}
+.onepa{
+    width: 50%;
+    height: 75px;
+    background-color: rgb(170, 213, 94);
+}
+.twopa{
+    width: 50%;
+    height: 75px;
+    background-color: rgb(6, 225, 17);
+}
+
+.twop{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: rgb(188, 7, 122);
+}
+.onepb{
+    width: 33.33%;
+    height: 75px;
+    background-color: fuchsia;
+}
+.twopb{
+    width: 33.33%;
+    height: 75px;
+    background-color: rgb(92, 174, 79);
+}
+.thirdpb{
+    width: 33.33%;
+    height: 75px;
+    background-color: rgb(234, 9, 9);
+}
+
+.thirdp{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0, 57, 9);
+}
+.onepc{
+    width: 50%;
+    height: 75px;
+    background-color: dimgray;
+}
+
+/* secound */
+
+.secoundss{
+    width: 33.33%;
+    height: 225px;
+    background-color: rgb(112, 163, 23);
+}
+.onepd{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(204, 73, 73);
+}
+.onepe{
+    width: 40%;
+    height: 90px;
+    background-color: rgb(87, 2, 19);
+}
+.twope{
+    width: 20%;
+    height: 90px;
+    background-color: rgb(90, 121, 37);
+}
+.thirdpe{
+    width: 40%;
+    height: 90px;
+    background-color: cornflowerblue;
+}
+
+.twopd{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(5, 222, 222);
+}
+.onepf{
+    width: 40%;
+    height: 45px;
+    background-color: rgb(129, 3, 149);
+}
+.twopf{
+    width: 20%;
+    height: 90px;
+    background-color: blue;
+}
+.thirdpf{
+    width: 20%;
+    height: 90px;
+    background-color: brown;
+}
+.fourpf{
+    width: 20%;
+    height: 90px;
+    background-color: rgb(112, 163, 23);
+}
+
+.threepd{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(13, 56, 7);
+}
+
+.thirds{
+    width: 33.33%;
+    height: 225px;
+    position: relative;
+    background-color: rgb(37, 241, 37);
+}
+
+/* section 2 */
+
+.mainss{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.topsh{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.firstsd{
+    width: 50%;
+    height: 112.5px;
+    background-color: darkolivegreen;
+}
+.partone{
+    width: 100%;
+    height: 56.25px;
+    display: flex;
+    background-color: black;
+}
+.oneone{
+    width: 25%;
+    height: 56.25px;
+    background-color: hotpink;
+}
+.twotwo{
+    width: 25%;
+    height: 56.25px;
+    background-color: rgb(168, 206, 0);
+}
+.threethree{
+    width: 25%;
+    height: 56.25px;
+    background-color: rgb(12, 70, 71);
+}
+.fourfour{
+    width: 25%;
+    height: 56.25px;
+    background-color: rgb(15, 0, 177);
+}
+.partonee{
+    width: 100%;
+    height: 56.25px;
+    display: flex;
+    background-color: black;
+}
+
+.oneee{
+    width: 33.33%;
+    height: 56.25px;
+    background-color: green;
+}
+.twoone{
+    width: 33.33%;
+    height: 56.25px;
+    background-color: rgb(54, 4, 28);
+}
+.threeone{
+    width: 33.33%;
+    height: 56.25px;
+    background-color: rgb(116, 147, 23);
+}
+
+.thiredsd{
+    width: 25%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(91, 5, 125);
+}
+.onej{
+    width: 50%;
+    height: 56.25px;
+    background-color: rgb(142, 67, 212);
+}
+.twoj{
+    width: 50%;
+    height: 112.5px;
+    background-color: rgb(13, 54, 40);
+}
+.foursd{
+    width: 25%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(175, 13, 13);
+}
+.onek{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(18, 18, 18);
+}
+.twok{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(219, 82, 3);
+}
+.threek{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(11, 13, 173);
+}
+/* section 3 */
+
+.mainssa{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+}
+.topsha{
+    width: 100%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(252, 252, 252);
+}
+.firstsda{
+    width: 25%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.onez{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: brown;
+}
+.twoz{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(54, 42, 148);
+}
+.thirdz{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(205, 87, 3);
+}
+
+.secoundsda{
+    width: 25%;
+    height: 112.5px;
+    background-color: beige;
+}
+.onex{
+    width: 100%;
+    height: 28.125px;
+    background-color: brown;
+}
+.twox{
+    width: 100%;
+    height: 28.125px;
+    background-color: rgb(15, 4, 116);
+}
+.thirdx{
+    width: 100%;
+    height: 28.125px;
+    background-color: rgb(23, 88, 84);
+}
+.fourx{
+    width: 100%;
+    height: 28.125px;
+    background-color: rgb(0, 0, 0);
+}
+
+.thiredsda{
+    width: 25%;
+    height: 112.5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.oney{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(62, 248, 186);
+}
+.twoy{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(180, 255, 31);
+}
+.thirdy{
+    width: 33.33%;
+    height: 112.5px;
+    background-color: rgb(141, 113, 53);
+}
+
+.foursda{
+    width: 25%;
+    height: 112.5px;
+    background-color: rgb(255, 255, 255);
+}
+.onew{
+    width: 100%;
+    height: 37.5px;
+    background-color: rgb(0, 67, 0);
+}
+.twow{
+    width: 100%;
+    height: 37.5px;
+    background-color: rgb(159, 85, 53);
+}
+.thirdw{
+    width: 100%;
+    height: 37.5px;
+    background-color: rgb(242, 6, 6);
+}
+
+/* footer */
+
+.mainf{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: chartreuse;
+}
+.onef{
+    width: 25%;
+    height: 150px;
+    background-color: darkred;
+}
+.onefd{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(91, 37, 37);
+}
+.twofd{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(219, 50, 17);
+}
+.thirdfd{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.secoundf{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(219, 131, 131);
+}
+.onefa{
+    width: 33.33%;
+    height: 150px;
+    background-color: limegreen;
+}
+.twofa{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(95, 7, 136);
+}
+.thirdfa{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(240, 209, 4);
+}
+.thirdf{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(219, 52, 10);
+}
+.onefb{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(125, 0, 0);
+}
+.twofb{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(101, 81, 81);
+}
+.thirdfb{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(157, 0, 157);
+}
+
+.fourf{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(0, 0, 0); 
+}
+.onefc{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(139, 210, 104);
+}
+.twofc{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(65, 195, 0); 
+}
+.thirdfc{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(194, 60, 227); 
+}
+
+.fivef{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(159, 140, 140);
+}
+.onefe{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.twofe{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(21, 184, 9);
+}
+.thirdfe{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(194, 207, 18);
+}
+
+.sixf{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    background-color: rgb(7, 141, 182);
+}
+.oneff{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(253, 95, 179);
+}
+.twoff{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(215, 49, 49);
+}
+.thirdff{
+    width: 33.33%;
+    height: 150px;
+    background-color: rgb(87, 199, 67);
+}
