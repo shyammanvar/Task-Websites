@@ -1,0 +1,128 @@
+*{
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 150px;
+    background-color: purple;
+}
+
+.top_left{
+    width: 50%;
+    height: 75px;
+    float: left;
+    background-color: gray;
+}
+
+.top_right{
+    float: right;
+    width: 50%;
+    height: 75px;
+    background-color: rgb(90, 178, 207);
+}
+.right{
+    width: 50%;
+    height: 150px;
+    background-color: yellowgreen;
+}
+
+.mains{
+    width: 100%;
+    display: flex;
+    height: 450px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: brown;
+}
+section{
+    width: 100%;
+    height: 450px;
+    background-color: pink;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: brown;
+}
+.rightside{
+    width: 50%;
+    height: 450px;
+    /* display: .//; */
+    background-color: rgb(104, 222, 208);
+}
+.leftside{
+    width: 50%;
+    height: 450px;
+    background-color: rgb(7, 98, 3);
+}
+.tops{
+    width: 100%;
+    height: 225px;
+    background-color: rgb(240, 119, 6);
+}
+.bottoms{
+    width: 100%;
+    height: 22  5px;
+    background-color: green;
+}
+.leftb{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+}
+.topf{
+    width: 50%;
+    height: 75px;
+    float: left;
+    background-color: rgb(132, 194, 90);
+}
+.bottomf{
+    width: 50%;
+    height: 150px;
+    float: right;
+    background-color: rgb(84, 226, 8);
+}
+.rightf{
+    width: 50%;
+    height: 150px;
+    /* display: flex; */
+    background-color: rgb(47, 43, 43);
+}
+.leftf{
+    width: 50%;
+    height: 75px;
+    float: right;
+    background-color:rgb(4, 109, 141);
+}
+.topbf{
+    width: 50%;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.mainf{
+    display: flex;
+    width: 100%;
+    height: 75px;
+}
