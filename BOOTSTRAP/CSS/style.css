@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+    font-size: 20px;
+}
+
+a1 {
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    font-size: 10px;
+}
+
+/* ----------------------------------Header------------------------- */
+header {
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+    background-color: #ffcc00;
+}
+.h1{
+    font-size: 80px;
+    color: rgb(66, 34, 34);
+}
+.h2{
+    font-size: 50px;
+    color: rgb(66, 34, 34);
+}
+.head {
+    width: 100%;
+    display: flex;
+}
+
+.head .logo {
+    width: 60%;
+    padding: 20px 0px;
+}
+
+.logo1{
+    width: 80%;
+    padding: 20px 0px;
+    float: right;
+    color: aliceblue;
+}
+
+.head .logo a {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.head .nav {
+    width: 40%;
+    padding: 20px 0px;
+}
+
+.nav ul {
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+
+.fa {
+    color: white;
+}
+
+.toggle {
+    display: none;
+}
+
+li a::after {
+    height: 2px;
+    content: '';
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    /* display: block; */
+    transition: all 0.3s;
+    width: 0;
+    background: #ffcc00;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+
+/* ------------------------------section----------------- ----------------------*/
+.First {
+    width: 100%;
+    padding: 120px 0;
+    overflow: hidden;
+    background-color: #ffcc00;
+}
+
+.head1 {
+    width: 100%;
+    display: flex;
+}
+
+.head1 .head2 {
+    width: 50%;
+}
+
+.head2 p {
+    font-size: 56px;
+    color: white;
+}
+
+.head2 h3 {
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.head1 .head3 {
+    width: 50%;
+}
+
+.head3 img {
+    width: 410px;
+    height: 290px;
+    margin-left: 90px;
+}
+
+.head2 a {
+    background-color: #ffcc00;
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.head2 a:hover {
+    opacity: 0.8;
+}
+
+
+/* ----------------------------------------- */
