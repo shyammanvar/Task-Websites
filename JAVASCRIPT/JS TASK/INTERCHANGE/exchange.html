@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ahm">Ahmedabad</h1>
+    <button type="button" onclick="exchange()">exchange</button>
+    <h1 id="amr">Amreli</h1>
+
+    <script>
+
+        let one = document.getElementById('ahm')
+        let two = document.getElementById('amr')
+        function exchange(){
+            
+            let e = one.innerHTML;
+            one.innerHTML = two.innerHTML
+            two.innerHTML = e
+        }
+    </script>
+</body>
+</html>
