@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+
+  
+  background-image: url(../img/Header.jpg);
+}
+#navbarSupportedContent li a {
+  color: white;
+}
+#navbarSupportedContent a:hover {
+  color: tomato;
+}
+h2 {
+  font-size: 65px;
+}
+h1 {
+  font-size: 14px;
+}
+.section1 p {
+  font-size: 14px;
+}
+.container h3 {
+  font-size: 22px;
+}
+.container h4 {
+  font-size: 14px;
+  color: red;
+}
+.container i {
+  border: 1px solid lightgray;
+  padding: 5px;
+  color: lightgray;
+}
+.section4 {
+  margin-top: 50px;
+}
+.ten {
+  display: flex;
+}
+.img-fluid1 {
+  width: 100%;
+}
+.img-fluid2 {
+  width: 100%;
+}
+.brown {
+  background-color: #53354a;
+  padding: 100px;
+}
+.brown pre {
+  color: white;
+  font-size: 23px;
+}
+.brown img {
+  padding: 10px;
+}
+.brown h6 {
+  color: white;
+  font-size: 10px;
+}
+.section5 h5 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section5 p {
+  font-size: 15px;
+  font-weight: 700;
+}
+.section6 {
+  background-color: #3a3e64;
+}
+.section6 i {
+  margin-top: 5px;
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid white;
+}
+.section6 p {
+  font-size: 14px;
+}
+.image {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+  background-color: #e7514c7e;
+}
+.image:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 35%;
+}
+
+.foot {
+  background-color: #313454;
+  height: 100px;
+}
+.foot p {
+  color: #808080;
+}
+@media screen and (max-width: 768px) {
+  header {
+  }
+  header h2 {
+    font-size: 55px;
+  }
+  .container h4 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  header {
+  }
+  header h2 {
+    font-size: 26px;
+  }
+  .section3,
+  .expression {
+    text-align: center;
+    justify-content: center;
+  }
+  .section3,
+  i {
+    margin-bottom: 20px;
+  }
+
+  .img-fluid1 {
+    display: none;
+  }
+  .img-fluid2 {
+  }
+}
