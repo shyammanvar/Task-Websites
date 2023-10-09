@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*--------------------------- HEADER--------------------------------- */
+
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/header.jpg);
+    width: 100%;
+}
+.head{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+.logo{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav  li a{
+    color: white;
+    padding: 10px 20px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 400;
+}
+.text_1{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+.text_1 h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+}
+.text_1 h1{
+    font-size:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.line{
+    border-bottom: 3px solid white;
+    width: 6%;
+    margin-left: 47%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.text_1 button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+}
+.text_1 button:hover{
+    background-color: white;
+    color: black;
+}
+.progress{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.pro1{
+    background-color:white;
+    height: 2px;
+    width: 25%;
+    margin-right: 2%;
+}
+.pro1 .red{
+    background-color: red;
+    height: 2px;
+    width: 25%;
+}
+.pro2{
+    background-color:white;
+    height: 2px;
+    width: 25%;
+    margin-right: 2%;
+}
+.pro3{
+    background-color:white;
+    height: 2px;
+    width: 25%;
+    margin-right: 2%;
+}
+.pro4{
+    background-color:white;
+    height: 2px;
+    width: 25%;
+}
+
+/* -----------------------------SEDTION1----------------------------- */
+
+.section1{
+    width: 100%;
+    margin-top: 100px;
+}
+.text_2{
+    text-align: center;
+}
+.text_2 h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    font-weight: 500;
+}
+.text_2 h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_2 .line1{
+    border-bottom: 3px solid #f38181;
+    width: 6%;
+    margin-left: 47%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.text_2 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+.Slot_image{
+    display: flex;
+    margin-top: 50px;
+}
+.img1{
+    margin-left: 5px;
+}
+
+/* -----------------------------SECTION2----------------------------- */
+
+.section2{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #95e1d3;
+}
+.text_slots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+}
+.slot1{
+    padding: 20px 20px;
+}
+.slot1 h1{
+    font-size: 36px;
+}
+.slot1 h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+/* -----------------------------SECTION3----------------------------- */
+
+.section3{
+    margin-top: 100px;
+}
+.service_slots{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.service1{
+    display: flex;
+    width: 33.33%;
+    padding: 0 20px;
+}
+.service2{
+    display: flex;
+    width: 33.33%;
+    padding: 0 20px;
+}
+.service3{
+    display: flex;
+    width: 33.33%;
+    padding: 0 20px;
+}
+.service1 .text1{
+    margin-left: 20px;
+}
+.service2 .text1{
+    margin-left: 20px;
+}
+.service3 .text1{
+    margin-left: 20px;
+}
+
+.service_slots2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* -----------------------------SECTION4----------------------------- */
+
+.section4{
+    width: 100%;
+   background-image: url(../img/section4.jpg);
+   margin-top: 100px;
+   padding-top: 30px;
+}
+.image_section{
+    display: flex;
+justify-content: center;
+position: relative;
+}
+.image1{
+   margin-top: 5px;
+   padding-bottom: 0;
+}
+.image2{
+    position: absolute;
+    top: 34%;
+    right: 22%;
+   
+}
+
+
+/* -----------------------------SECTION5----------------------------- */
+
+.section5{
+    margin-top: 100px;
+}
