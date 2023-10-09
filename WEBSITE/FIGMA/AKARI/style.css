@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  background-image: url(../img/img2.png);
+  height: 120vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.links ul {
+  display: flex;
+  margin-top: 30px;
+}
+.links li a {
+  color: white;
+  padding: 0 20px;
+}
+.button button {
+  margin-top: 30px;
+  background: none;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.payment_content {
+  width: 100%;
+  display: flex;
+}
+.content1 {
+  width: 50%;
+  margin-top: 100px;
+}
+.content1 h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 80px;
+}
+.content1 p {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.content1 a {
+  background-color: #5282ff;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 15px;
+}
+.content2 {
+  width: 50%;
+}
+.content2 img {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+/*----------- ----------Section1---------- --------------*/
+
+.section1 {
+  margin-top: 100px;
+  width: 100%;
+}
+.facility {
+  display: flex;
+  width: 100%;
+}
+.facility_1 {
+  width: 30%;
+}
+.facility_1 h1 {
+  font-size: 52px;
+  position: absolute;
+  margin-top: 10px;
+  line-height: 80px;
+}
+.facility_1 button {
+  background: none;
+  border: 1px solid #6b24a9;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.facility_2 {
+  width: 70%;
+}
+.facility_2 img {
+  height: 500px;
+  width: 800px;
+}
+.facility_para {
+  width: 100%;
+}
+.facility_para p {
+  position: absolute;
+  right: 188px;
+  width: 30%;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+/*----------- ----------Section2---------- --------------*/
+
+.section2 {
+  width: 100%;
+  padding-top: 100px;
+}
+.pay {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  /* justify-content: space-between; */
+}
+.pay_1 {
+  background: #e7e9ec;
+  width: 607px;
+  height: 300px;
+  display: flex;
+  padding: 12px 25px;
+  border-radius: 30px;
+  width: 53%;
+}
+
+.earth_img img {
+  width: 260px;
+  height: 260px;
+  margin-top: 10px;
+}
+.earth_text {
+  margin-left: 20%;
+}
+.earth_text p {
+  margin-bottom: 80%;
+  margin-top: 10px;
+}
+.earth_text button {
+  background: none;
+  padding: 10px 20px;
+  border: 1px solid #5282ff;
+  color: #5282ff;
+  border-radius: 20px;
+}
+.text_1 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.text_1 button {
+  background: none;
+  border: 1px solid #6b24a9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.icon_para img {
+  float: left;
+  margin-right: 10px;
+}
+.text_1 h2 {
+  color: #bfc1c4;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.pay_2 {
+  width: 40%;
+}
+
+/*--------------------- Section3 ------------------------*/
+
+.section3 {
+  background: #132051;
+  width: 100%;
+  height: 150vh;
+  margin-top: 100px;
+  border-radius: 60px 60px 0px 0px;
+}
+.payment_method {
+  width: 100%;
+  display: flex;
+}
+.method_1 {
+  padding-top: 100px;
+  width: 48%;
+}
+.method_1 h1 {
+  font-size: 60px;
+  color: #c6cfdc;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.method_1 p {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  line-height: 24px;
+}
+.up {
+  border: 1px solid #9d7abb;
+  background: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+.down {
+  background: #5282ff;
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+}
+.method_2 {
+  width: 50%;
+}
+.method_2 img {
+  width: 695px;
+  height: 670px;
+}
+
+/*--------------------- Section4 ------------------------*/
+
+.section4 {
+  background: #030712;
+  width: 100%;
+  height: 130vh;
+  border-radius: 60px 60px 0px 0px;
+  padding-top: 100px;
+}
+.akari_history {
+  display: flex;
+  width: 100%;
+}
+.history_1 {
+  width: 50%;
+}
+.history_1 img {
+  display: block;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.history_2 {
+  width: 50%;
+}
+.history_2 h1 {
+  font-size: 52px;
+  color: white;
+}
+.history_2 h2 {
+  color: #c6cfdc;
+  font-size: 36px;
+}
+
+/*--------------------- Section5 ------------------------*/
+
+.section5 {
+  background: #0b1436;
+  width: 100%;
+  height: 1600px;
+  border-radius: 60px 60px 60px 60px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.whychoose_akari {
+  width: 100%;
+  display: flex;
+}
+.akari_text {
+  width: 50%;
+}
+.akari_text h1 {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 30px;
+}
+.akari_text p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.planet {
+  width: 1300px;
+  height: 1200px;
+  position: relative;
+  top: -1200px;
+}
+.akari_set2 {
+  margin-top: 20%;
+  margin-left: 20px;
+}
+.box1 {
+  background: #1f2647;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 30px;
+  color: white;
+}
+.box {
+  padding: 15px 20px;
+  margin-bottom: 100px;
+}
+.box img {
+  background: #1a213f;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.box h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box p {
+  font-size: 20px;
+}
+
+/* box2 */
+
+.box2 {
+  padding: 15px 20px;
+  margin-bottom: 100px;
+}
+.box2 img {
+  background: #1a213f;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.box2 h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box2 p {
+  font-size: 20px;
+}
+
+/* box3 */
+
+.box3 {
+  padding: 15px 20px;
+}
+.box3 img {
+  background: #1a213f;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.box3 h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box3 p {
+  font-size: 20px;
+}
+
+/* box4 */
+
+.box4 {
+  padding: 15px 20px;
+  margin-bottom: 100px;
+}
+.box4 img {
+  background: #1a213f;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.box4 h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box4 p {
+  font-size: 20px;
+}
+
+/* box5 */
+
+.box5 {
+  padding: 15px 20px;
+}
+.box5 img {
+  background: #1a213f;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.box5 h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box5 p {
+  font-size: 20px;
+}
+
+/*--------------------- Section6 ------------------------*/
+
+.section6 {
+  width: 100%;
+  margin-top: 100px;
+}
+.inti {
+  background: none;
+  border: 1px solid #6b24a9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.suppo_1 h1{
+    font-size: 52px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+.suppo_2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.card_1{
+    background: dodgerblue;
+    width: 500px;
+    height: 217px;
+    margin-right: 20px;
+    padding: 50px 100px;
+    color: white;
+    border-radius: 20px;
+}
+.card_1 h1{
+    font-size: 52px;
+}
+.card_2{
+    background:dodgerblue;
+    width: 500px;
+    height: 217px;
+    padding: 50px 100px;
+    color: white;
+    border-radius: 20px;
+}
+.card_2 h1{
+    font-size: 52px;
+}
+.card_text{
+    margin: 0 auto;
+}
+
+/*--------------------- Section7 ------------------------*/
+
+.section7{
+    background: #F0F1F9;
+    width: 100%;
+    height: 500px;
+    border-radius: 60px 60px 60px 60px;
+    margin-top: 100px;
+    position: relative;
+}
+.differnt{
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+.diffrent1{
+  width: 60%;
+}
+.diffrent1 h1{
+  font-size: 52px;
+  margin-top: 20px;
+}
+.diffrent2{
+  width: 40%;
+}
+.diffrent2 h2{
+  color: #bfc1c4;
+  margin-top: 20px;
+}
+.diffrent2 p{
+  margin-top: 20px;
+}
+.diff {
+  background: none;
+  border: 1px solid #6b24a9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.inti_ico img{
+float: left;
+}
+.inti_ico h1{
+  margin-left: 20px;
+  padding-top: 3px;
+}
+
+/*--------------------- Section8 ------------------------*/
+
+.section8{
+  background: #0b1436;
+  width: 100%;
+  height: 1600px;
+  border-radius: 0px 0px 60px 60px;
+  padding-top: 100px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+}
+.stars{
+  position: absolute;
+  top: 50%;
+}
+.get{
+  margin-top: 40%;
+  background: none;
+  border: 1px solid #6b24a9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
