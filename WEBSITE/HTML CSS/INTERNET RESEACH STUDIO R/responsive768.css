@@ -1,0 +1,322 @@
+ @media (max-width: 768px) {
+  .container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ed1 {
+    padding: 80px 0;
+  }
+  .toggle {
+    display: block;
+    position: fixed;
+    top: 23px;
+    right: 20px;
+  }
+  .nav .b {
+    width: 100%;
+    display: none;
+  }
+  .b ul li {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  .b.active {
+    display: block;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .ed1,
+  .tex,
+  .c,
+  .d,
+  img {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .c {
+    width: 65%;
+  }
+  .c h1 {
+    font-size: 56px;
+  }
+  .c p {
+    font-size: 20px;
+  }
+  .d img {
+    margin: 50px 0;
+    width: 700px;
+    height: 400px;
+  }
+  .box {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .box .box1 {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .box .box2 {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .box .box3 {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .box .box4 {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .box .box5 {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .ed3,
+  .g {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .g,
+  a {
+    text-align: center;
+  }
+  .ed4,
+  i,
+  .one,
+  .logo,
+  .h,
+  .j,
+  .two,
+  .k,
+  .l,
+  .three,
+  .m {
+  }
+  .h p {
+    font-size: 21px;
+  }
+  .j p {
+    font-size: 21px;
+  }
+  .k p {
+    font-size: 21px;
+  }
+  .l p {
+    font-size: 21px;
+  }
+  .m p {
+    font-size: 21px;
+  }
+
+  .ed5,
+  .dc,
+  .n,
+  .o,
+  img {
+    display: flex;
+    flex-direction: column;
+  }
+  .n {
+    width: 100%;
+  }
+  .n p {
+    font-size: 23px;
+  }
+  .n h1 {
+    font-size: 83px;
+  }
+  .n h5 {
+    float: left;
+    margin-top: -20px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  .o img {
+    margin: 30px 0;
+    width: 700px;
+    height: 450px;
+  }
+  .ed6,
+  .ae,
+  .ae1,
+  .ae2,
+  .ae3,
+  .ae4,
+  .ae5,
+  .ae6,
+  .ico {
+    flex-direction: column;
+  }
+  .ico {
+    margin-top: 20px;
+  }
+  .ae2 h1 {
+    margin-bottom: 10px;
+  }
+  .ae2 h2 {
+    margin-bottom: 10px;
+  }
+  .ae2 p {
+    margin-bottom: 10px;
+  }
+  .ae3 h1 {
+    margin-bottom: 10px;
+  }
+  .ae3 h2 {
+    margin-bottom: 10px;
+  }
+  .ae3 p {
+    margin-bottom: 10px;
+  }
+  .ae4 h1 {
+    margin-bottom: 10px;
+  }
+  .ae4 h2 {
+    margin-bottom: 10px;
+  }
+  .ae4 p {
+    margin-bottom: 10px;
+  }
+  .ae5 h1 {
+    margin-bottom: 10px;
+  }
+  .ae5 h2 {
+    margin-bottom: 10px;
+  }
+  .ae5 p {
+    margin-bottom: 10px;
+  }
+  .ae6 h1 {
+    margin-bottom: 10px;
+  }
+  .ae6 h2 {
+    margin-bottom: 10px;
+  }
+  .ae6 p {
+    margin-bottom: 10px;
+  }
+
+  .ed7,
+  .de {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .de {
+    width: 100%;
+  }
+  .de1 {
+    width: 100%;
+  }
+  .de2 {
+    margin-left: 0;
+    width: 100%;
+  }
+  .de4 {
+    margin-top: 10px;
+  }
+  .ed8 {
+  }
+  .ed9,
+  .re1,
+  .re2,
+  .re3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .re2 {
+    text-align: left;
+    width: 100%;
+  }
+  .re3 {
+    margin-bottom: 30px;
+  }
+  .re3 img {
+    margin: 0 50px;
+  }
+  .re3 p {
+    text-align: center;
+  }
+  .re3,
+  a {
+    text-align: center;
+  }
+
+  .ed10,
+  .qe1,
+  .qe2,
+  .qe3 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .qe2::after {
+    content: none;
+  }
+  .qe2::before {
+    content: none;
+  }
+  .qe3::after {
+    content: none;
+  }
+  .qe3::before {
+    content: none;
+  }
+  .foot {
+    flex-wrap: wrap;
+  }
+  .foot .lorem {
+    margin-bottom: 0;
+  }
+  .foot .menu {
+    margin: 0 auto;
+  }
+  .foot .media i {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .foot .media {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .line1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+  .line2 {
+    margin-bottom: 20px;
+  }
+  .line3 {
+    border-bottom: 1px solid white;
+  }
+  .line3 h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .line3 i {
+    color: white;
+    font-size: 20px;
+    margin-left: 380px;
+  }
+  .line3 input {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  input::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
