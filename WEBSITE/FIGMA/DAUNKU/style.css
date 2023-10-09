@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url(../img/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.jpg);   
+    height: 130vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* .whitebox{
+    position: absolute;
+    content: '';
+    background-color: white transparent;
+    width: 100%;
+height: 300px;
+top: 10px;
+} */
+
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 33.33%;
+}
+.links{
+    width: 33.33%;
+}
+.links ul{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+}
+.links li a{
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    outline: none;
+}
+.links li a:hover{
+    color:linear-gradient(to right,#2AF598 ,#009EFD) ;
+    
+}
+.cart{
+    width: 33.33%;
+    padding-top: 10px;
+}
+.cart img{
+    /* margin-left:200px; */
+    height: 30px;
+    width: 30px;
+}
+.set1{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.para h1{
+    color: white;
+    font-size: 56px;
+    margin-top: 100px;
+}
+.para p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.searchbtn{
+    margin-top: 20px;
+    padding-bottom: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.searchbar{
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    /* padding: 24px; */
+    font-size: 20px;
+    color: white;
+}
+.searchbar button img{
+    width: 30px;
+}
+.searchbar button{
+    background: none;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+
+/*-------------------------- section1---------------------------- */
+
+.section1{
+    margin-top:50px;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.set_1{
+    display:flex ;
+}
+.set_1 .p1{
+    margin: 20px;
+}
+.set_1 p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.set_2{
+    display:flex ;
+}
+.set_2 .p1{
+    margin: 20px;
+}
+.set_2 p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.set_3{
+    display:flex ;
+}
+.set_3 .p1{
+    margin: 20px;
+}
+.set_3 p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/*-------------------------- section2---------------------------- */
+
+.section2{
+    width: 100%;
+    margin-top: 200px;
+}
+.best_seller{
+    width: 100%;
+    display: flex;
+}
+.text_1{
+    width: 30%;
+    margin-top: 55px;
+    
+}
+.text_1 h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text-arrow{
+    display: flex;
+}
+.arrow img{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.cards{
+    width: 70%;
+    display: flex;
+   
+}
+.card_1{
+    background-color: #C1D0E4;
+    height: 300px;
+    width: 280px;
+    margin-right: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+.card_1 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    right: 10px;
+}
+.card_2{
+    background-color: #C1D0E4;
+    height: 300px;
+    width: 280px;
+    margin-right: 20px;
+    border-radius: 30px;
+    position: relative;
+    
+}
+.card_2 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    right: 10px;
+    position: absolute;
+}
+.card_3{
+    background-color: #C1D0E4;
+    height: 300px;
+    width: 280px;
+    border-radius: 30px;
+    position: relative;
+}
+.card_3 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    right: 10px;
+}
+.rating_card1{
+    background-color: white;
+    height: 193px;
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0px;
+    border-radius: 50px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.2);
+}
+.rating_card1 img{
+    width: 120px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.rating_card1 h1{
+position: absolute;
+top: 5px;
+left:30px;
+}
+.text_icon{
+    position: relative;
+    top: 10px;
+}
+.text_icon img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    right:20px;
+}
+.text_icon h1{
+    position: absolute;
+    top: 260px;
+    right:inherit;
+    left: 30px;
+}
+
+/*-------------------------- section3 ---------------------------- */
+
+.section3{
+    width: 100%;
+    margin-top: 200px;
+}
+.reffrences{
+    width: 100%;
+}
+.reff_text h1{
+   text-align: center; 
+   font-size: 54px;
+   font-weight: 400;
+}
+.reff_text p{
+    text-align: center;
+}
+.reffrence_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.img_1{
+    width: 50%;
+}
+.img1{
+    width: 650px;
+    height: 400px;
+}
+.img2{
+    width: 650px;
+    height: 320px;
+    margin-top: 10px;
+}
+.img_2{
+    
+}
+.img3{
+    width: 400px;
+    height: 730px;
+}
+
+/*-------------------------- section4 ---------------------------- */
+
+.section4{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.care{
+    display: flex;
+    width: 100%;
+}
+.care_text{
+    width: 50%;
+}
+.text1,.h1{
+    margin-left: 10px;
+}
+.text1,.t2{
+    margin-left: 10px;
+}
+
+.set_icon1{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.set_icon1 .pt1{
+    margin-left: 20px;
+}
+.pt1 h1{
+    font-weight: 500;
+}
+.pt1 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.text2{
+    width: 50%;
+}
+.text2 img{
+    width: 550px;
+    height: 500px;
+}
+
+/*-------------------------- Footer ---------------------------- */
+
+.section5{
+    background-image: linear-gradient(to right, #566270 , #283444);
+    height: 350px;
+    margin-top: 100px;
+    
+}
+.foot{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.part1{
+    width: 40%;
+}
+.part1 h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    /* padding-top: 50px; */   
+}
+.subscribe{
+    margin-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.sub_btn{
+    width: 100%;
+  max-width: 360px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+.sub_btn input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    /* padding: 24px; */
+    font-size: 20px;
+    color: white;
+}
+.sub_btn button{
+    background: linear-gradient(to right,#2AF598 ,#009EFD);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    font-size: 14px;
+}
+::placeholder{
+    color: white;
+    font-size: 14px;
+}
+.part2{
+    width: 70%;
+}
+.li_section{
+    width: 100%;
+    display: flex;
+}
+.li1{
+    width: 20%;
+}
+.li2{
+    width: 20%;
+}
+.li3{
+    width: 20%;
+}
+.li4{
+    width: 40%;
+}
+.li_section{
+    display: flex;
+    justify-content: space-around;
+}
+.li_section h5{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.li_section p{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.li_section li a{
+    color: white;
+    line-height: 40px;
+}
+.li4 a{
+    color: white;
+}
+
+.last_text p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+

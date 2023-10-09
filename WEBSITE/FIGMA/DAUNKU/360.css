@@ -1,0 +1,58 @@
+/* @media (max-width: 360px){
+    header{
+        background-image: url(../img/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background\ 1.jpg);   
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .para h1{
+        color: white;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .para p{
+        color: white;
+        font-size: 11px;
+        margin-top: 10px;
+        line-height: 16px;
+    }
+    .searchbtn{
+        margin-top: 5px;
+        padding-bottom: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .searchbar{
+        width: 100%;
+        max-width: 400px;
+        background: rgba(255,255,255,0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 5px 20px;
+        margin-top: 10px;
+        border: 1px solid white;
+    }
+    .searchbar input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        /* padding: 24px; */
+        font-size: 20px;
+        color: white;
+    }
+    .searchbar button img{
+        width: 30px;
+    }
+    .searchbar button{
+        background: none;
+        border: none;
+    }
+    ::placeholder{
+        color: white;
+    }
+    } */
